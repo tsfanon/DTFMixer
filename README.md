@@ -23,7 +23,7 @@ sh ./scripts/short_term_forecast/DTFMixer_PEMS08.sh
 DTFMixer integrates time-domain and frequency-domain information via a hierarchical multi-scale framework. The model consists of four components:
 
 <p align="center">
-<img src="./pic/model.png" width="90%" alt="DTFMixer Architecture" />
+<img src="pic/model.png" width="90%" alt="DTFMixer Architecture" />
 </p>
 
 - **Dynamic Frequency Decomposition (DFD)**: Adaptively emphasizes predictive spectral components and derives seasonal and trend representations.
@@ -40,14 +40,14 @@ DTFMixer integrates time-domain and frequency-domain information via a hierarchi
 Forecast results on multivariate datasets with input length fixed at 96 and prediction horizons T ∈ {96, 192, 336, 720}. The best and second-best results are marked in red and blue, respectively.
 
 <div align=center>
-<img src="./pic/long_result.png" width='90%'>
+<img src="pic/long_result.png" width='90%'>
 </div>
 
 ### Short-term Forecasting Results
 Forecast results on multivariate PEMS datasets and univariate M4 datasets. The best and second-best results are marked in red and blue, respectively.
 
 <div align=center>
-<img src="./pic/short_result.png" width='90%'>
+<img src="pic/short_result.png" width='90%'>
 </div>
 
 ## Acknowledgement
